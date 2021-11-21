@@ -106,15 +106,10 @@ def main():
 					max_aupr = metrics[0]
 
 				print('indepent test metrics:', indepent_metrics)
-				print(f'AUC:  {metrics[1]:.4f}   AUPR: {metrics[0]:.4f}')
+				print(f'AUC:  {indepent_metrics[1]:.4f}   AUPR: {indepent_metrics[0]:.4f}')
 
 		print("W :", Ws)
 		print("att :", att)
-		print('max_auc:  ' + str(max_auc), 'max_aupr:  ' + str(max_aupr))
-		all_fold.append(max_auc)
-		all_fold.append(max_aupr)
-
-	print(all_fold)
 
 
 if __name__ == '__main__':
