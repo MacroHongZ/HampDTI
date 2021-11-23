@@ -23,7 +23,7 @@ def main():
 	parser.add_argument('--index', default=1, type=int)
 
 	parser.add_argument('--num_channels', default=4, type=int)
-	parser.add_argument('--num_layers', default=2, type=int)
+	parser.add_argument('--num_layers', default=3, type=int)
 
 	parser.add_argument('--lr', default=0.0003, type=float)
 	parser.add_argument('--weight_decay', default=1e-7, type=float)
@@ -50,7 +50,7 @@ def main():
 
 		model = GTN(num_edge=A.shape[0],
 					num_channels=args.num_channels,
-					num_layers=args.num_layers,
+					num_layers=args.num_layers - 1,
 					drug_num=708,
 					protein_num=1512)
 
