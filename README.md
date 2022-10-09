@@ -1,6 +1,8 @@
 # HampDTI
 A heterogeneous graph automatic meta-path learning method for drug-target interaction prediction
 
+![](./model.png)
+
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMacroHongZ%2FHampDTI&count_bg=%23FFC544&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=HampDTI&edge_flat=false)](https://hits.seeyoufarm.com)
 
 # Requirements
@@ -54,4 +56,4 @@ To reproduce our results:  please run `main.py`. Options are:
 - proteinSquence.txt : protein squences for all proteins in DTINet datasets.
 
 # Contacts
-If you have any questions or comments, please feel free to email wanghongzhun@webmail.hzau.edu.cn
+If you have any questions or comments, please feel free to email wanghongzhun@webmail.hzau.edu.cn or wanghongzhunsix@qq.com
