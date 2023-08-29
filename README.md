@@ -1,5 +1,5 @@
 # HampDTI
-A heterogeneous graph automatic meta-path learning method for drug-target interaction prediction
+This is the implementation of [A heterogeneous graph automatic meta-path learning method for drug-target interaction prediction](https://academic.oup.com/bib/article/23/4/bbac184/6596318)
 
 ![](./model.png)
 
